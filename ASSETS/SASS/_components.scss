@@ -1,0 +1,27 @@
+img {
+  display: inline-block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0 20px 0 20px;
+}
+// banner section starts
+.banner {
+  background: linear-gradient(to right, #2e5732, #4e9955);
+}
+// banner section ends
+// navbar section starts
+.navbar-container {
+  background-image: url(../Images/banner-image-cooking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.navbar {
+  width: 60%;
+  border: solid 2px green;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+// navbar section ends

@@ -3,7 +3,7 @@
 .container {
   margin: 0 auto;
   max-width: v.$site-width;
-  border: 2px solid red;
+  border: 2px solidd red;
 }
 
 .banner-text {
@@ -11,9 +11,9 @@
   justify-content: center;
 }
 
-figure {
-  display: flex;
-  // grid-template-columns: 1fr 1fr 1fr 1fr;
-  max-width: 1440px;
-  flex-wrap: wrap;
-}
+// figure {
+//   display: flex;
+//   // grid-template-columns: 1fr 1fr 1fr 1fr;
+//   max-width: 1440px;
+//   flex-wrap: wrap;
+// }

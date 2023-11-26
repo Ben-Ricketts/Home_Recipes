@@ -6,6 +6,9 @@ img {
 .col-4 {
   width: 25%;
   float: left;
+  img {
+    width: 95%;
+  }
 }
 
 .rose_image {
@@ -15,18 +18,20 @@ img {
   margin: 0 20px 0 20px;
 }
 
-// .buns-img {
-//   grid-row: span 2;
-// }
+.sourdough-img {
+  width: 95%;
+}
 
-// .cookies-img {
-//   grid-row: span 2;
-// }
+.cookies-img {
+  width: 95%;
+}
 
-// .chicken-wraps-img {
-//   grid-row: span 2;
-//   margin-top: 30px;
-// }
+.moroccan-meatballs-img {
+  width: 95%;
+}
+.chicken-wraps-img {
+  width: 95%;
+}
 
 // .chicken-soup {
 //   grid-row: span 2;

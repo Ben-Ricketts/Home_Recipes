@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cassie's Home Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;400&family=Roboto&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./ASSETS/CSS/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="banner-text">
+          <h1>home</h1>
+          <a href="./index.html">
+            <img
+              class="rose_image"
+              src="./ASSETS/Images/rose_image.png"
+              alt="image of a rose"
+              width="50"
+          /></a>
+          <h1>recipes</h1>
+        </div>
+        <div class="banner-caption">
+          <p>"an archive of all your favourite dishes"</p>
+        </div>
+      </div>
+    </header>
+    <div class="navbar-container">
+      <div class="navbar">
+        <a href="#">breads</a>
+        <a href="#">lamb</a>
+        <a href="#">chicken</a>
+        <a href="#">beef</a>
+        <a href="./sweets.html">sweets</a>
+      </div>
+    </div>
+    <main class="container">
+      <form action="" onchange="redirectToPage(this)">
+        <select name="sweets" id="sweet-treats" class="sweet-treats">
+          <option value="" disabled selected>Select a sweet treat</option>
+          <option value="./cookies.html">Cookies</option>
+          <option value="./brownies.html">Brownies</option>
+          <option value="./sweets.html">back to sweets</option>
+        </select>
+      </form>
+      <h3>225g butter</h3>
+      <h3>200g brown sugar</h3>
+      <h3>100g castor sugar</h3>
+      <h3>2 eggs</h3>
+      <h3>180g flour</h3>
+      <h3>180g self-raising</h3>
+      <h3>1 tsp cornflour</h3>
+      <h3>1.2 tsp salt</h3>
+      <h3>1 tsp baking soda</h3>
+      <h3>350g chocolate (best with whittakers)</h3>
+      <h3>makes 10-12. bake at 180c-200c for 10-14 minutes</h3>
+    </main>
+
+    <footer><p class="copyright">&copy; cassie henderson</p></footer>
+    <script src="./ASSETS/Scripts/script.js"></script>
+  </body>
+</html>

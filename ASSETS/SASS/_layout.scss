@@ -3,12 +3,15 @@
 .container {
   margin: 0 auto;
   max-width: v.$site-width;
-  border: 2px solidd red;
 }
 
 .banner-text {
   display: flex;
   justify-content: center;
+}
+
+.clearfix {
+  clear: both;
 }
 
 // figure {

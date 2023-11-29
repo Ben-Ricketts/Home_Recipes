@@ -18,17 +18,86 @@ img {
   margin: 0 20px 0 20px;
 }
 
+// images of food on homepage
 .sourdough-img {
-  width: 95%;
+  &:hover {
+    // height: 280px;
+    // width: 355px;
+    height: 280px;
+    width: 355px;
+  }
 }
 
 .cookies-img {
-  width: 95%;
+  &:hover {
+    height: 330px;
+    width: 355px;
+  }
 }
 
 .moroccan-meatballs-img {
-  width: 95%;
+  &:hover {
+    height: 330px;
+    width: 355px;
+  }
 }
-.chicken-wraps-img {
-  width: 95%;
+.crepes-img {
+  &:hover {
+    height: 330px;
+    width: 355px;
+  }
 }
+
+.chicken-soup {
+  &:hover {
+    height: 270px;
+    width: 355px;
+  }
+}
+.buns-img {
+  &:hover {
+    height: 380px;
+    width: 355px;
+  }
+}
+.brownies-img {
+  &:hover {
+    height: 420px;
+    width: 355px;
+  }
+}
+
+.roast-chicken-img {
+  &:hover {
+    height: 250px;
+    width: 355px;
+  }
+}
+.Beef-Stroganoff-img {
+  &:hover {
+    height: 270px;
+    width: 355px;
+  }
+}
+.ricecrispies-img {
+  &:hover {
+    height: 320px;
+    width: 355px;
+  }
+}
+
+.dan-dan-noodle-img {
+  &:hover {
+    height: 270px;
+    width: 355px;
+  }
+}
+
+.chickenwraps-img {
+  &:hover {
+    height: 370px;
+    width: 355px;
+  }
+}
+
+// images of food on homepage

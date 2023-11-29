@@ -1,5 +1,7 @@
 @use "./variables" as v;
 
+// homepage
+
 .banner h1 {
   display: inline-block;
   color: white;
@@ -31,4 +33,20 @@
   color: white;
   padding: 50px;
   text-transform: capitalize;
+}
+
+// homepage
+// cookies page
+
+.cookie-ingredients {
+  margin-top: 50px;
+  text-transform: capitalize;
+  font-size: 1.2em;
+}
+
+.cookie-instructions {
+  font-size: 2em;
+  text-transform: capitalize;
+  margin-bottom: 45px;
+  word-spacing: 10px;
 }

@@ -1,6 +1,6 @@
 @use "./variables" as v;
 
-// homepage
+// homepage STARTS
 
 .banner h1 {
   display: inline-block;
@@ -35,18 +35,36 @@
   text-transform: capitalize;
 }
 
-// homepage
-// cookies page
+// homepage ENDS
 
-.cookie-ingredients {
-  margin-top: 50px;
+// select screen (eg. sweets) STARTS
+.form-instructions {
+  text-transform: capitalize;
+  text-align: center;
+  color: v.$primary--color;
+}
+// // select screen (eg. sweets) ENDS
+// recipes page STARTS
+.recipe-heading {
+  text-transform: capitalize;
+  margin: 20px 20px;
+}
+
+.recipe-ingredients {
+  margin: 20px 20px;
   text-transform: capitalize;
   font-size: 1.2em;
 }
 
-.cookie-instructions {
+.recipe-instructions {
   font-size: 2em;
   text-transform: capitalize;
-  margin-bottom: 45px;
+  margin: 20px 20px;
   word-spacing: 10px;
 }
+
+.recipe-gap {
+  margin-top: 20px;
+}
+
+// recipes page ENDS

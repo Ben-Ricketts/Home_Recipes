@@ -1,5 +1,8 @@
+// STARTS banner at top of page
+
 img {
   object-fit: cover;
+  object-position: center center;
   margin: 10px;
 }
 
@@ -17,8 +20,10 @@ img {
   padding-bottom: 20px;
   margin: 0 20px 0 20px;
 }
+// ENDS banner at top of page
 
-// images of food on homepage
+// STARTS images of food on homepage
+
 .sourdough-img {
   &:hover {
     // height: 280px;
@@ -100,4 +105,33 @@ img {
   }
 }
 
-// images of food on homepage
+// ENDS images of food on homepage
+
+// START image carousel slider on selection pages (eg. sweets, breads, chicken)
+
+.image-banner {
+  margin-top: 20px;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 50px 0;
+  &:hover .image-slider {
+    animation-play-state: paused;
+  }
+}
+
+.image-slider {
+  display: inline-block;
+
+  animation: 50s slider infinite linear;
+}
+
+@keyframes slider {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+//ENDS image carousel slider on selection pages (eg. sweets, breads, chicken)

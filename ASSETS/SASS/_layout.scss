@@ -21,3 +21,28 @@
 .grid-2col {
   grid-template-columns: 1fr 1fr;
 }
+
+// layout in recipe section BEGINS
+
+.recipe {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 100px 1fr 250px;
+  grid-template-areas: "header header" "ingredients image" "instructions instructions";
+}
+
+.recipe-heading {
+  grid-area: header;
+}
+
+.recipe-ingredients {
+  grid-area: ingredients;
+}
+
+.recipe-img {
+  grid-area: image;
+}
+
+.recipe-instructions {
+  grid-area: instructions;
+}

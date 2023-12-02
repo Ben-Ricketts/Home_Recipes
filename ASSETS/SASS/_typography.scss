@@ -47,13 +47,16 @@
 // recipes page STARTS
 .recipe-heading {
   text-transform: capitalize;
-  margin: 20px 20px;
+  color: v.$primary--color;
+  text-align: center;
+  font-size: 1.5em;
 }
 
 .recipe-ingredients {
   margin: 20px 20px;
   text-transform: capitalize;
   font-size: 1.2em;
+  font-weight: 800;
 }
 
 .recipe-instructions {
@@ -61,6 +64,7 @@
   text-transform: capitalize;
   margin: 20px 20px;
   word-spacing: 10px;
+  width: 70%;
 }
 
 .recipe-gap {

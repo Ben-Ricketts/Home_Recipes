@@ -25,10 +25,6 @@
 
 // footer starts
 
-footer {
-  background: linear-gradient(to right, v.$primary--color, v.$secondary--color);
-}
-
 // SWEETS section BEGINS
 
 .menu {
@@ -37,3 +33,12 @@ footer {
   width: 30%;
   margin-left: 35%;
 }
+
+// footer STARTS
+
+footer {
+  background: linear-gradient(to right, v.$primary--color, v.$secondary--color);
+  margin-top: auto;
+}
+
+// footer ENDS

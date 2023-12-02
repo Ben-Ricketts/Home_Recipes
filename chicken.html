@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cassie's Home Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;400&family=Roboto&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./ASSETS/CSS/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="banner-text">
+          <a href="./index.html"> <h1>home</h1></a>
+          <a href="./index.html">
+            <img
+              class="rose-image"
+              src="./ASSETS/Images/rose_image.png"
+              alt="image of a rose"
+              width="50"
+          /></a>
+          <a href="./index.html"><h1>recipes</h1></a>
+        </div>
+        <div class="banner-caption">
+          <p>"an archive of all your favourite dishes"</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="navbar-container">
+        <div class="navbar">
+          <a href="./breads.html">breads</a>
+          <a href="./lamb.html">lamb</a>
+          <a href="./chicken.html">chicken</a>
+          <a href="./beef.html">beef</a>
+          <a href="./sweets.html">sweets</a>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <h1 class="form-instructions">please select from the drop down menu</h1>
+      <div class="form-container">
+        <form action="" onchange="redirectToPage(this)">
+          <select name="sweets" id="menu" class="menu">
+            <option value="" disabled selected>Select a chicken dish</option>
+            <option value="./cookies.html">cookies</option>
+            <option value="./brownies.html">brownies</option>
+            <option value="./sweets.html">back to sweets</option>
+          </select>
+        </form>
+      </div>
+      <figure>
+        <div class="image-banner">
+          <div class="image-slider">
+            <img
+              src="./ASSETS/Images/chicken_soup.jpg"
+              alt="image of chocolate chip cookies"
+              height="200"
+              width="300"
+              alt="image of a bowl of chicken soup"
+            />
+            <img
+              src="./ASSETS/Images/chicken_wraps.jpg"
+              height="200"
+              width="300"
+              alt="image of chicken wraps"
+            />
+            <img
+              src="./ASSETS/Images/chicken_burgers.jpg"
+              height="200"
+              width="300"
+              alt="image of chicken burgers"
+            />
+            <img
+              src="./ASSETS/Images/garlic_lime_chicken.jpg"
+              height="200"
+              width="300"
+              alt="image of garlic lime chicken dish"
+            />
+            <img
+              src="./ASSETS/Images/chicken_paprikash.jpg"
+              height="200"
+              width="300"
+              alt="image of chicken chicken paprikash dish"
+            />
+            <img
+              src="./ASSETS/Images/roast chicken.webp"
+              height="200"
+              width="300"
+              alt="iamge of roast chicken"
+            />
+          </div>
+          <div class="image-slider">
+            <img
+              src="./ASSETS/Images/chicken_soup.jpg"
+              alt="image of chocolate chip cookies"
+              height="200"
+              width="300"
+              alt="image of a bowl of chicken soup"
+            />
+            <img
+              src="./ASSETS/Images/chicken_wraps.jpg"
+              height="200"
+              width="300"
+              alt="image of chicken wraps"
+            />
+            <img
+              src="./ASSETS/Images/chicken_burgers.jpg"
+              height="200"
+              width="300"
+              alt="image of chicken burgers"
+            />
+            <img
+              src="./ASSETS/Images/garlic_lime_chicken.jpg"
+              height="200"
+              width="300"
+              alt="image of garlic lime chicken dish"
+            />
+            <img
+              src="./ASSETS/Images/chicken_paprikash.jpg"
+              height="200"
+              width="300"
+              alt="image of chicken chicken paprikash dish"
+            />
+            <img
+              src="./ASSETS/Images/roast chicken.webp"
+              height="200"
+              width="300"
+              alt="iamge of roast chicken"
+            />
+          </div>
+        </div>
+      </figure>
+    </main>
+
+    <footer><p class="copyright">&copy; cassie henderson</p></footer>
+    <script src="./ASSETS/Scripts/script.js"></script>
+  </body>
+</html>

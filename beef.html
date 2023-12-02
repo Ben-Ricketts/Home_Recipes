@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cassie's Home Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;400&family=Roboto&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./ASSETS/CSS/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="banner-text">
+          <a href="./index.html"> <h1>home</h1></a>
+          <a href="./index.html">
+            <img
+              class="rose-image"
+              src="./ASSETS/Images/rose_image.png"
+              alt="image of a rose"
+              width="50"
+          /></a>
+          <a href="./index.html"><h1>recipes</h1></a>
+        </div>
+        <div class="banner-caption">
+          <p>"an archive of all your favourite dishes"</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="navbar-container">
+        <div class="navbar">
+          <a href="./breads.html">breads</a>
+          <a href="./lamb.html">lamb</a>
+          <a href="./chicken.html">chicken</a>
+          <a href="./beef.html">beef</a>
+          <a href="./sweets.html">sweets</a>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <h1 class="form-instructions">please select from the drop down menu</h1>
+      <div class="form-container">
+        <form action="" onchange="redirectToPage(this)">
+          <select name="sweets" id="menu" class="menu">
+            <option value="" disabled selected>Select a beef dish</option>
+            <option value="./cookies.html">cookies</option>
+            <option value="./brownies.html">brownies</option>
+            <option value="./sweets.html">back to sweets</option>
+          </select>
+        </form>
+      </div>
+      <figure>
+        <div class="image-banner">
+          <div class="image-slider">
+            <img
+              src="./ASSETS/Images/sloppy_joes_1.jpg"
+              alt="image of sloppy joe burger"
+              height="200"
+              width="300"
+            />
+            <img
+              src="./ASSETS/Images/Beef-Stroganoff.webp"
+              height="200"
+              width="300"
+              alt="image of beef Beef-Stroganoff dish"
+            />
+            <img
+              src="./ASSETS/Images/sticky_beef.webp"
+              height="200"
+              width="300"
+              alt="image of sticky_beef rice"
+            />
+            <img
+              src="./ASSETS/Images/beef_burger.jpg"
+              height="200"
+              width="300"
+              alt="image of beef_burger"
+            />
+            <img
+              src="./ASSETS/Images/beef_meatballs.jpg"
+              height="200"
+              width="300"
+              alt="image of meatballs on pasta"
+            />
+            <img
+              src="./ASSETS/Images/beef_ragu.jpg"
+              height="200"
+              width="300"
+              alt="image of beef_ragu dish"
+            />
+          </div>
+          <div class="image-slider">
+            <img
+              src="./ASSETS/Images/sloppy_joes_1.jpg"
+              alt="image of sloppy joe burger"
+              height="200"
+              width="300"
+            />
+            <img
+              src="./ASSETS/Images/Beef-Stroganoff.webp"
+              height="200"
+              width="300"
+              alt="image of beef Beef-Stroganoff dish"
+            />
+            <img
+              src="./ASSETS/Images/sticky_beef.webp"
+              height="200"
+              width="300"
+              alt="image of sticky_beef rice"
+            />
+            <img
+              src="./ASSETS/Images/beef_burger.jpg"
+              height="200"
+              width="300"
+              alt="image of beef_burger"
+            />
+            <img
+              src="./ASSETS/Images/beef_meatballs.jpg"
+              height="200"
+              width="300"
+              alt="image of meatballs on pasta"
+            />
+            <img
+              src="./ASSETS/Images/beef_ragu.jpg"
+              height="200"
+              width="300"
+              alt="image of beef_ragu dish"
+            />
+          </div>
+        </div>
+      </figure>
+    </main>
+
+    <footer><p class="copyright">&copy; cassie henderson</p></footer>
+    <script src="./ASSETS/Scripts/script.js"></script>
+  </body>
+</html>

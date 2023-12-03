@@ -27,7 +27,7 @@
 .recipe {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 100px 1fr 250px;
+  grid-template-rows: 100px 1fr 300px;
   grid-template-areas: "header header" "ingredients image" "instructions instructions";
 }
 
@@ -41,6 +41,7 @@
 
 .recipe-img {
   grid-area: image;
+  place-items: center;
 }
 
 .recipe-instructions {

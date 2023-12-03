@@ -54,21 +54,30 @@
 
 .recipe-ingredients {
   margin: 20px 20px;
-  text-transform: capitalize;
+
   font-size: 1.2em;
   font-weight: 800;
+  li {
+    margin-top: 10px;
+  }
+  li::first-letter {
+    text-transform: capitalize;
+  }
 }
 
 .recipe-instructions {
   font-size: 2em;
-  text-transform: capitalize;
+
   margin: 20px 20px;
   word-spacing: 10px;
-  width: 70%;
+  width: 80%;
   text-align: center;
-  margin: 0 auto;
-  p {
+  place-items: center;
+  li {
     margin-top: 20px;
+  }
+  li::first-letter {
+    text-transform: capitalize;
   }
 }
 

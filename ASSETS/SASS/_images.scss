@@ -114,6 +114,7 @@ img {
   overflow: hidden;
   white-space: nowrap;
   margin: 50px 0;
+
   &:hover .image-slider {
     animation-play-state: paused;
     cursor: pointer;
@@ -122,7 +123,6 @@ img {
 
 .image-slider {
   display: inline-block;
-
   animation: 50s slider infinite linear;
 }
 

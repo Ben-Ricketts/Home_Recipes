@@ -32,6 +32,12 @@
   margin-top: 20px;
   width: 30%;
   margin-left: 35%;
+  option {
+    text-transform: capitalize;
+  }
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 // footer STARTS

@@ -25,8 +25,13 @@
   padding: 20px;
   text-transform: capitalize;
   color: rgb(88, 68, 68);
-
   text-decoration: none;
+
+  @media (max-width: 900px) {
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 20px;
+  }
 }
 
 .copyright {
@@ -66,12 +71,12 @@
 }
 
 .recipe-instructions {
-  font-size: 2em;
-
+  font-size: 1.5em;
+  font-weight: 800;
   margin: 20px 20px;
   word-spacing: 10px;
   width: 80%;
-  text-align: center;
+  text-align: left;
   place-items: center;
   li {
     margin-top: 20px;

@@ -46,7 +46,11 @@
 .form-instructions {
   text-transform: capitalize;
   text-align: center;
+  font-size: 2rem;
   color: v.$primary--color;
+  @media (max-width: 750px) {
+    font-size: 1rem;
+  }
 }
 // // select screen (eg. sweets) ENDS
 // recipes page STARTS

@@ -49,12 +49,17 @@
   text-align: center;
   margin-top: 20px;
   width: 30%;
-  margin-left: 35%;
+  // margin-left: 35%;
+  margin: 0 auto;
+  display: block;
   option {
     text-transform: capitalize;
   }
   &:hover {
     cursor: pointer;
+  }
+  @media (max-width: 750px) {
+    width: 70%;
   }
 }
 

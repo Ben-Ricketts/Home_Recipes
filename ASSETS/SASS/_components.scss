@@ -9,10 +9,10 @@
 // banner section ends
 // navbar section starts
 .navbar-container {
-  background-image: url(../Images/banner-image-cooking.jpg);
+  background-image: url(../Images/yellow_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: top;
 }
 
 .navbar {
@@ -29,11 +29,15 @@
 // button STARTS
 .btn {
   width: 20%;
-  margin: 2% auto;
-  padding: 2%;
+  display: block;
+  margin: 0 auto;
+  padding: 1.5rem;
   border-radius: 1rem;
-  color: v.$primary--color;
+  background-color: v.$secondary--color;
   font-weight: 700;
+  color: white;
+  font-family: sans-serif;
+  border: solid white;
   &::first-letter {
     text-transform: capitalize;
   }

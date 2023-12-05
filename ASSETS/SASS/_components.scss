@@ -4,6 +4,7 @@
 
 .banner {
   background: linear-gradient(to right, v.$primary--color, v.$secondary--color);
+  width: 100vw;
 }
 // banner section ends
 // navbar section starts
@@ -15,17 +16,34 @@
 }
 
 .navbar {
-  width: 60%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  a {
+    margin: 0 2%;
+  }
 }
-// navbar section ends
+// navbar section ENDS
 
-// footer starts
+// button STARTS
+.btn {
+  width: 20%;
+  margin: 2% auto;
+  padding: 2%;
+  border-radius: 1rem;
+  color: v.$primary--color;
+  font-weight: 700;
+  &::first-letter {
+    text-transform: capitalize;
+  }
+  @media (max-width: 750px) {
+    width: 40%;
+  }
+}
+// button ENDS
 
-// SWEETS section BEGINS
+// recipe selection section BEGINS
 
 .menu {
   text-align: center;

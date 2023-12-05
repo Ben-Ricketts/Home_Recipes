@@ -26,82 +26,94 @@ img {
 
 .sourdough-img {
   &:hover {
-    // height: 280px;
-    // width: 355px;
     height: 280px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 80px;
   }
 }
 
-.cookies-img {
-  &:hover {
-    height: 330px;
-    width: 355px;
-  }
-}
-
-.moroccan-meatballs-img {
-  &:hover {
-    height: 330px;
-    width: 355px;
-  }
-}
+.cookies-img,
+.moroccan-meatballs-img,
 .crepes-img {
   &:hover {
     height: 330px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 130px;
   }
 }
 
-.chicken-soup {
+.chicken-soup,
+.Beef-Stroganoff-img {
   &:hover {
     height: 270px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 70px;
   }
 }
+
 .buns-img {
   &:hover {
     height: 380px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 140px;
   }
 }
+
 .brownies-img {
   &:hover {
     height: 420px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 220px;
   }
 }
 
 .roast-chicken-img {
   &:hover {
     height: 250px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 50px;
   }
 }
-.Beef-Stroganoff-img {
-  &:hover {
-    height: 270px;
-    width: 355px;
-  }
-}
+
 .ricecrispies-img {
   &:hover {
     height: 320px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 120px;
   }
 }
 
 .dan-dan-noodle-img {
   &:hover {
     height: 270px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 70px;
   }
 }
 
 .chickenwraps-img {
   &:hover {
     height: 370px;
-    width: 355px;
+    width: 350px;
+  }
+  @media (max-width: 750px) {
+    height: 150px;
   }
 }
 

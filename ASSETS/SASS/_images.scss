@@ -122,8 +122,12 @@ img {
 // START images for recipe pages
 
 .recipe-img {
-  width: 95%;
-  padding: 20px;
+  img {
+    width: 95%;
+    @media (max-width: 750px) {
+      height: 150px;
+    }
+  }
 }
 
 // START image carousel slider on selection pages (eg. sweets, breads, chicken)

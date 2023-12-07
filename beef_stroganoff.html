@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cassie's Home Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;400&family=Roboto&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./ASSETS/CSS/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="banner-text">
+          <a href="./index.html"> <h1>home</h1></a>
+          <a href="./index.html">
+            <img
+              class="rose-image"
+              src="./ASSETS/Images/bunch_of_roses.png"
+              alt="image of a rose"
+              width="70"
+              height="100"
+          /></a>
+          <a href="./index.html"><h1>recipes</h1></a>
+        </div>
+        <div class="banner-caption">
+          <p>~ an archive of all your favourite dishes ~</p>
+        </div>
+      </div>
+    </header>
+    <div class="navbar-container">
+      <div class="navbar">
+        <a href="./breads.html">breads</a>
+        <a href="./lamb.html">lamb</a>
+        <a href="./chicken.html">chicken</a>
+        <a href="./beef.html">beef</a>
+        <a href="./sweets.html">sweets</a>
+      </div>
+    </div>
+    <main class="container">
+      <div class="form-container">
+        <form action="" onchange="redirectToPage(this)">
+          <select name="sweets" id="menu" class="menu">
+            <option value="" disabled selected>Select a beef dish</option>
+            <option value="./sloppy_joes.html">sloppy joes</option>
+            <option value="./beef_stroganoff.html">beef stroganoff</option>
+            <option value="./beef.html">back to beef dishes</option>
+          </select>
+        </form>
+      </div>
+      <section class="recipe">
+        <div class="recipe-heading"><h1>beef stroganoff</h1></div>
+        <div class="recipe-ingredients">
+          <ul>
+            <li>1 red onion</li>
+            <li>1 clove of garlic</li>
+            <li>1 lemon</li>
+            <li>2 handfuls of wild mushrooms</li>
+            <li>2-3 sprigs of fresh flat-leaf parsley</li>
+            <li>500 g fillet steak</li>
+            <li>1 teaspoon paprika</li>
+            <li>olive oil</li>
+            <li>1 knob of unsalted butter</li>
+            <li>1 small glass of brandy</li>
+            <li>50 ml sour cream</li>
+          </ul>
+        </div>
+        <div class="recipe-img">
+          <img
+            src="./ASSETS/Images/Beef-Stroganoff.webp"
+            alt="image of a bowl of beef stroganoff"
+            height="250"
+            width="350"
+          />
+        </div>
+        <div class="recipe-instructions">
+          <h3>directions:</h3>
+          <ol>
+            <li>
+              peel and finely chop the onion and garlic, then finely grate the
+              lemon zest. Clean and tear the mushrooms. Pick and finely chop the
+              parsley.
+            </li>
+            <li>
+              place the beef between 2 sheets of clingfilm. Bash with a rolling
+              pin until ½ cm thick, then cut into finger-width slices.
+            </li>
+            <li>
+              mix the paprika, lemon zest, and a pinch of sea salt and black
+              pepper together, and use to dust the beef.
+            </li>
+            <li>
+              in a large frying pan over a medium-low heat, fry the onion and
+              garlic in a little oil until softened. Turn up the heat and add
+              the mushrooms and butter, sautéing until the mushrooms are golden
+              brown, then tip onto a plate
+            </li>
+            <li>
+              add a little oil to the pan and fry the beef for 2 minutes,
+              turning, until browned but still pink inside. Stir in the
+              mushroom-onion mixture, add the brandy and reduce for 1 minute or
+              until almost disappeared.
+            </li>
+            <li>
+              remove from the heat and stir in the cream and parsley. Delicious
+              serve with bread and gherkins.
+            </li>
+          </ol>
+        </div>
+      </section>
+    </main>
+
+    <footer><p class="copyright">&copy; Home Recipes</p></footer>
+    <script src="./ASSETS/Scripts/script.js"></script>
+  </body>
+</html>

@@ -9,7 +9,7 @@ img {
   width: 25%;
   float: left;
   img {
-    width: 95%;
+    width: 90%;
   }
 }
 
@@ -20,17 +20,19 @@ img {
 // ENDS banner at top of page
 
 // STARTS images of food on homepage
-
+.images-container img {
+  margin: 5%;
+}
 .sourdough-img {
   &:hover {
     height: 280px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 80px;
     &:hover {
       height: 90px;
-      width: 100px;
     }
   }
 }
@@ -40,13 +42,13 @@ img {
 .crepes-img {
   &:hover {
     height: 330px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 130px;
     &:hover {
-      height: 140px;
-      width: 100px;
+      height: 130px;
     }
   }
 }
@@ -55,13 +57,13 @@ img {
 .Beef-Stroganoff-img {
   &:hover {
     height: 270px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 70px;
     &:hover {
-      height: 80px;
-      width: 100px;
+      height: 70px;
     }
   }
 }
@@ -69,13 +71,14 @@ img {
 .buns-img {
   &:hover {
     height: 380px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
+
   @media (max-width: 750px) {
     height: 140px;
     &:hover {
       height: 150px;
-      width: 100px;
     }
   }
 }
@@ -83,13 +86,13 @@ img {
 .brownies-img {
   &:hover {
     height: 420px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 180px;
     &:hover {
       height: 190px;
-      width: 100px;
     }
   }
 }
@@ -97,13 +100,13 @@ img {
 .roast-chicken-img {
   &:hover {
     height: 250px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 90px;
     &:hover {
       height: 100px;
-      width: 100px;
     }
   }
 }
@@ -111,13 +114,13 @@ img {
 .ricecrispies-img {
   &:hover {
     height: 320px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 120px;
     &:hover {
       height: 130px;
-      width: 100px;
     }
   }
 }
@@ -125,13 +128,13 @@ img {
 .dan-dan-noodle-img {
   &:hover {
     height: 270px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 70px;
     &:hover {
       height: 80px;
-      width: 100px;
     }
   }
 }
@@ -139,13 +142,13 @@ img {
 .chickenwraps-img {
   &:hover {
     height: 370px;
-    width: 350px;
+    width: 330px;
+    width: 95%;
   }
   @media (max-width: 750px) {
     height: 150px;
     &:hover {
       height: 160px;
-      width: 100px;
     }
   }
 }

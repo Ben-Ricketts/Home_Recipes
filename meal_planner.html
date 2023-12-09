@@ -46,17 +46,18 @@
 
     <main class="container">
       <h1 class="meal-planner-heading">meal planner</h1>
-      <form action="" class="meal-planner-container">
-        <input
-          class="meal-planner"
-          id="meal-planner-input"
-          type="text"
-          placeholder="add a day and a meal, e.g. monday: meatballs"
-          autocomplete="off"
-        />
-      </form>
-      <button class="meal-planner-btn" onclick="addToList()">add</button>
-
+      <div class="meal-planner-btn-container">
+        <form action="" class="meal-planner-container">
+          <input
+            class="meal-planner"
+            id="meal-planner-input"
+            type="text"
+            placeholder="add a day and a meal, e.g. monday: meatballs"
+            autocomplete="off"
+          />
+        </form>
+        <button class="meal-planner-btn" onclick="addToList()">add</button>
+      </div>
       <!-- list items that have been added -->
       <ul class="list-item" id="list-item"></ul>
       <!-- list items that have been added -->

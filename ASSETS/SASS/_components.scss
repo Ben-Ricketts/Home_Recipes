@@ -80,21 +80,38 @@
 .meal-planner-container {
   display: inline-block;
   text-align: center;
-
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   .meal-planner {
     text-align: center;
     width: 100%;
     margin-bottom: 100px;
   }
+  @media (max-width: 900px) {
+    width: 50%;
+  }
+  @media (max-width: 750px) {
+    width: 70%;
+  }
 }
+
 .meal-planner-btn {
   width: 5%;
   text-transform: capitalize;
+  height: 30%;
   &:hover {
     cursor: pointer;
   }
+  @media (max-width: 900px) {
+    width: 10%;
+  }
+  @media (max-width: 750px) {
+    width: 20%;
+  }
+}
+
+.banner {
+  display: flex;
 }
 
 .list-items,

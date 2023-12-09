@@ -49,6 +49,14 @@ function addToList() {
   }
 }
 
+document.addEventListener("keydown", function (e) {
+  console.log(e.key);
+
+  if (e.key.toLowerCase() === "enter") {
+    addToList();
+  }
+});
+
 // meal planner section to allow user to add to list ENDS
 
 // FUNCTION for saving listitems into storage BEGINS

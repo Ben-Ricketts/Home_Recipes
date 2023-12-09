@@ -55,7 +55,12 @@ function addToList() {
 
 function saveListToLocalStorage() {
   // Convert the list items to an array of strings
-  let itemsArray = Array.from(listItems.children).map((item) => item.innerText);
+  let itemsArray = Array.from(listItems.children).map((item) => {
+    // Exclude the delete button text
+    return item.firstChild.nodeType === 3
+      ? item.firstChild.nodeValue
+      : item.innerText;
+  });
 
   // Save the array to local storage
   localStorage.setItem("mealPlannerList", JSON.stringify(itemsArray));

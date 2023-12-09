@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cassie's Home Recipes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Plus+Jakarta+Sans:wght@200;400&family=Roboto&family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./ASSETS/CSS/style.min.css" />
+  </head>
+  <body>
+    <header>
+      <div class="banner">
+        <div class="banner-text">
+          <a href="./index.html"> <h1>home</h1></a>
+          <a href="./index.html">
+            <img
+              class="rose-image"
+              src="./ASSETS/Images/bunch_of_roses.png"
+              alt="image of a rose"
+              width="70"
+              height="100"
+          /></a>
+          <a href="./index.html"><h1>recipes</h1></a>
+        </div>
+        <div class="banner-caption">
+          <p>~ an archive of all your favourite dishes ~</p>
+        </div>
+      </div>
+    </header>
+    <nav>
+      <div class="navbar-container">
+        <div class="navbar">
+          <a href="./breads.html">breads</a>
+          <a href="./lamb.html">lamb</a>
+          <a href="./chicken.html">chicken</a>
+          <a href="./beef.html">beef</a>
+          <a href="./sweets.html">sweets</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="container">
+      <h1 class="meal-planner-heading">meal planner</h1>
+      <form action="" class="meal-planner-container">
+        <input
+          class="meal-planner"
+          id="meal-planner-input"
+          type="text"
+          placeholder="add a day and a meal, e.g. monday: meatballs"
+        />
+      </form>
+      <button class="meal-planner-btn" onclick="addToList()">add</button>
+
+      <!-- list items that have been added -->
+      <ul class="list-item" id="list-item"></ul>
+      <!-- list items that have been added -->
+      <figure>
+        <div class="image-banner">
+          <div class="image-slider">
+            <img
+              src="./ASSETS/Images/homemade_cookies_2.jpg"
+              alt="image of chocolate chip cookies"
+              height="200"
+              width="300"
+            />
+            <img
+              src="./ASSETS/Images/brownies.jpg"
+              height="200"
+              width="300"
+              alt="image of brownies"
+            />
+            <img
+              src="./ASSETS/Images/lemon_loaf.jpg"
+              height="200"
+              width="300"
+              alt="image of a lemon loaf"
+            />
+            <img
+              src="./ASSETS/Images/banana_cake.webp"
+              height="200"
+              width="300"
+              alt="image of a banana cake"
+            />
+            <img
+              src="./ASSETS/Images/applecruble.jpg"
+              height="200"
+              width="300"
+              alt="image of applecrumble"
+            />
+            <img
+              src="./ASSETS/Images/spiced_cookies_homemade.jpg"
+              height="200"
+              width="300"
+              alt="image of spiced cookies"
+            />
+          </div>
+          <div class="image-slider">
+            <img
+              src="./ASSETS/Images/homemade_cookies_2.jpg"
+              alt="image of chocolate chip cookies"
+              height="200"
+              width="300"
+            />
+            <img
+              src="./ASSETS/Images/brownies.jpg"
+              height="200"
+              width="300"
+              alt="image of brownies"
+            />
+            <img
+              src="./ASSETS/Images/lemon_loaf.jpg"
+              height="200"
+              width="300"
+              alt="image of a lemon loaf"
+            />
+            <img
+              src="./ASSETS/Images/banana_cake.webp"
+              height="200"
+              width="300"
+              alt="image of a banana cake"
+            />
+            <img
+              src="./ASSETS/Images/applecruble.jpg"
+              height="200"
+              width="300"
+              alt="image of applecrumble"
+            />
+            <img
+              src="./ASSETS/Images/spiced_cookies_homemade.jpg"
+              height="200"
+              width="300"
+              alt="image of spiced cookies"
+            />
+          </div>
+        </div>
+      </figure>
+    </main>
+
+    <footer><p class="copyright">&copy; Home Recipes</p></footer>
+    <script src="./ASSETS/Scripts/script.js"></script>
+  </body>
+</html>

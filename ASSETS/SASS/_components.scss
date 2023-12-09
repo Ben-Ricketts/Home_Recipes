@@ -27,6 +27,10 @@
 // navbar section ENDS
 
 // button STARTS
+.btn-link {
+  text-decoration: none;
+}
+
 .btn {
   width: 20%;
   display: block;
@@ -35,12 +39,17 @@
   border-radius: 1rem;
   background-color: v.$secondary--color;
   font-weight: 700;
-  color: white;
   font-family: sans-serif;
   border: solid white;
+
+  color: white;
   &::first-letter {
     text-transform: capitalize;
   }
+  &:hover {
+    cursor: pointer;
+  }
+
   @media (max-width: 750px) {
     width: 40%;
   }
@@ -53,7 +62,6 @@
   text-align: center;
   margin-top: 20px;
   width: 30%;
-  // margin-left: 35%;
   margin: 0 auto;
   display: block;
   option {
@@ -66,6 +74,30 @@
     width: 70%;
   }
 }
+// recipe selection section ENDS
+
+// input for the meal planner + ADD button BEGINS
+.meal-planner-container {
+  display: inline-block;
+  text-align: center;
+
+  margin: 0 auto;
+  width: 90%;
+  .meal-planner {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+}
+.meal-planner-btn {
+  width: 5%;
+  text-transform: capitalize;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+// input for the meal planner + ADD button ENDS
 
 // footer STARTS
 

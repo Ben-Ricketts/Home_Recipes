@@ -62,10 +62,11 @@
 
 .recipe-ingredients {
   margin: 20px 20px;
-
   font-size: 1.2em;
   font-weight: 800;
+
   li {
+    display: list-item;
     margin-top: 10px;
     @media (max-width: 750px) {
       font-size: 0.7rem;
@@ -85,6 +86,8 @@
   text-align: left;
   place-items: center;
   li {
+    list-style-type: decimal;
+    display: list-item;
     margin-top: 20px;
     @media (max-width: 750px) {
       font-size: 0.7rem;
@@ -116,13 +119,14 @@
   font-size: 1.5em;
 }
 
-.list-items,
-li {
-  text-transform: capitalize;
-  font-size: 1.2em;
-  padding-bottom: 50px;
-  color: v.$primary--color;
+.list-item {
+  li {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    padding-bottom: 50px;
+    color: v.$primary--color;
+  }
   button {
-    padding: 5px 20px;
+    font-size: 1em;
   }
 }

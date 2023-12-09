@@ -1,4 +1,4 @@
-// Section to allow user to pick a meal from the dropdown menu on pages such as sweets, beef etc BEGINS
+// ------Section to allow user to pick a meal from the dropdown menu on pages such as sweets, beef etc BEGINS---------
 
 function redirectToPage(form) {
   // Get the selected option from the dropdown
@@ -11,9 +11,9 @@ function redirectToPage(form) {
   }
 }
 
-// Section to allow user to pick a meal from the dropdown menu on pages such as sweets, beef etc ENDS
+// -------Section to allow user to pick a meal from the dropdown menu on pages such as sweets, beef etc ENDS-----------
 
-// meal planner section to allow user to add to list BEGINS
+// -------function to allow user to add item to the meal planner list BEGINS-------------------
 let listItems = document.querySelector(".list-item");
 let inputValue = document.getElementById("meal-planner-input");
 
@@ -48,6 +48,9 @@ function addToList() {
     inputValue.value = "";
   }
 }
+// -------function to allow user to add item to the meal planner list ENDS-------------------
+
+// ------------------eventhandler for the ENTER key STARTS---------------------
 
 document.addEventListener("keydown", function (e) {
   console.log(e.key);
@@ -57,9 +60,11 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
+// ---------------eventhandler for the ENTER key ENDS----------------
+
 // meal planner section to allow user to add to list ENDS
 
-// FUNCTION for saving listitems into storage BEGINS
+// --------------Function for saving items into local storage BEGINS-------------------
 
 function saveListToLocalStorage() {
   // Convert the list items to an array of strings
@@ -73,6 +78,10 @@ function saveListToLocalStorage() {
   // Save the array to local storage
   localStorage.setItem("mealPlannerList", JSON.stringify(itemsArray));
 }
+
+// --------------Function for saving items into local storage ENDS-------------------
+
+// --------------Function for loading saved item BEGINS-------------------------------
 
 function loadListFromLocalStorage() {
   // Retrieve the array from local storage
@@ -100,10 +109,9 @@ function loadListFromLocalStorage() {
     listItems.appendChild(newListItem);
   });
 }
+// --------------Function for loading saved item BEGINS-------------------------------
 
-// FUNCTION for saving listitems into storage ENDS
-
-// FUNCTION for DELETING list item BEGINS (function is being called from the addToList function)
+// ---------FUNCTION for DELETING list item BEGINS (function is being called from the addToList function)--------------------
 
 function deleteListItem(item) {
   let listItems = document.querySelector(".list-item");
@@ -115,4 +123,4 @@ function deleteListItem(item) {
   saveListToLocalStorage();
 }
 
-// FUNCTION for DELETING list item BEGINS
+// --------------FUNCTION for DELETING list item ENDS-------------

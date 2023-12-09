@@ -97,6 +97,12 @@
   }
 }
 
+.list-items,
+li {
+  display: flex;
+  justify-content: space-between;
+}
+
 // input for the meal planner + ADD button ENDS
 
 // footer STARTS

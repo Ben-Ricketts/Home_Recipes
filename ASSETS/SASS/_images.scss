@@ -15,7 +15,12 @@ img {
 
 .rose-image {
   display: inline-block;
-  margin: 10px;
+  margin: 10px 20px;
+  margin-top: 20px;
+  @media (max-width: 750px) {
+    width: 90px;
+    height: 100px;
+  }
 }
 // ENDS banner at top of page
 
@@ -23,6 +28,7 @@ img {
 .images-container img {
   margin: 5%;
 }
+
 .sourdough-img {
   &:hover {
     height: 280px;

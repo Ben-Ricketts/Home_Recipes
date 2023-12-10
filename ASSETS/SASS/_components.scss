@@ -9,19 +9,23 @@
 // banner section ends
 // navbar section starts
 .navbar-container {
-  background-image: url(../Images/yellow_banner.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
+  // background-image: url(../Images/yellow_banner.jpg);
+  // background-repeat: no-repeat;
+  // background-size: cover;
+  // background-position: top;
+  background-color: rgb(126, 164, 126);
 }
 
 .navbar {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-
+  flex-wrap: nowrap;
   a {
     margin: 0 2%;
+    @media (max-width: 750px) {
+      font-size: 0.7em;
+      margin: 0%;
+    }
   }
 }
 // navbar section ENDS

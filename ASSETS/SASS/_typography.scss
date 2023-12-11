@@ -44,6 +44,11 @@
 // homepage ENDS
 
 // select screen (eg. sweets) STARTS
+.form-container {
+  margin-top: 30px;
+  margin-bottom: 150px;
+}
+
 .form-instructions {
   text-transform: capitalize;
   text-align: center;
@@ -120,6 +125,7 @@
   color: v.$primary--color;
   text-align: center;
   font-size: 1.5em;
+  margin: 20px;
 }
 
 .list-item {

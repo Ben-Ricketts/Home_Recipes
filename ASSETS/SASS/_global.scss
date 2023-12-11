@@ -12,8 +12,9 @@ html {
   min-height: 100vh;
   font-family: v.$main--font;
 
-  header {
+  .banner {
     position: sticky;
     top: 0;
+    z-index: 1;
   }
 }

@@ -179,7 +179,6 @@ img {
   overflow: hidden;
   white-space: nowrap;
   margin: 0 auto;
-
   &:hover .image-slider {
     animation-play-state: paused;
     cursor: pointer;
@@ -187,18 +186,22 @@ img {
 }
 
 .image-slider {
+  width: 110%;
   display: inline-block;
   animation: 50s slider infinite linear;
   overflow: hidden;
   padding: 5px;
   padding-right: 5px;
+  @media (max-width: 1150px) {
+    width: 120%;
+  }
   img {
     width: 15%;
     margin: 10px;
   }
   @media (max-width: 750px) {
     height: 100px;
-    width: 100%;
+    width: 140%;
   }
 }
 
